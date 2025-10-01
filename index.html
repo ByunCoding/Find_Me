@@ -386,6 +386,21 @@
                     <input type="text" name="kakaoId" required>
                 </div>
 
+                <!-- 개인정보 동의 -->
+                <div class="question-group" style="margin-top: 50px;">
+                    <div style="background: linear-gradient(135deg, #fff4e6 0%, #ffe8d1 100%); padding: 25px; border-radius: 15px; border: 2px solid #ff7e5f;">
+                        <p style="font-size: 15px; line-height: 1.8; margin-bottom: 20px; color: #333;">
+                            본 설문은 상담 안내를 위해 작성되며, 수집된 개인정보(이름, 연락처 등)는 응답 확인 및 결과 안내, 마케팅 활용을 위해 사용됩니다. 설문을 제출하시면 개인정보 활용에 동의하신 것으로 간주됩니다.
+                        </p>
+                        <div class="radio-group" style="margin-top: 20px;">
+                            <div class="radio-option">
+                                <input type="radio" id="privacyAgree" name="privacy" value="agree" required>
+                                <label for="privacyAgree">네<span class="required">*</span></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <button type="submit" class="submit-btn">✨ 제출하기</button>
 
             </form>
